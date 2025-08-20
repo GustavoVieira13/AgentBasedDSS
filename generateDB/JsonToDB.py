@@ -5,7 +5,7 @@ import random
 # Configuração para a conexão com o banco de dados MySQL
 config = {
     'user': 'root',                  # Seu usuário MySQL
-    'password': '@MYSQL123',         # Sua senha MySQL
+    'password': '',         # Sua senha MySQL
     'host': 'localhost',             # Endereço do servidor (localhost, se for local)
     'port': 3306,                    # Porta do MySQL (3306 é a padrão)
     'database': 'workloadbalance'    # Nome do banco de dados
@@ -148,3 +148,4 @@ inserir_dados(dados)
 conexao.commit()
 cursor.close()
 conexao.close()
+
