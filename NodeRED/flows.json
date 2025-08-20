@@ -1,0 +1,2998 @@
+[
+    {
+        "id": "f89d37d6df21c456",
+        "type": "tab",
+        "label": "UI",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "f171f54e0d53b7ec",
+        "type": "group",
+        "z": "f89d37d6df21c456",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7b9f9f63614344ac",
+            "8282b65888fefca9",
+            "31bea06d5becd101",
+            "d0642fab8dfcc7b3",
+            "f31377acaafcf1b6",
+            "08c1e76d396032c6",
+            "3317fbddc35aed41",
+            "f098bd8c8e5142b0",
+            "d8d49b049f9a8cf7",
+            "9de57785cc363f85",
+            "7404bde7fab45977",
+            "ac2228723407c0a9",
+            "9ec28845b840d4e6",
+            "c12e82e04ee8d0b2",
+            "da6b6b71c141c345",
+            "82e9a620a05ec239",
+            "647e18d480715583",
+            "5444c873b5f223c6",
+            "37510556fa161bbc",
+            "36c37f85cee48179",
+            "adf5a6e30ae48dcb",
+            "6e5a5e69b5a9a277",
+            "51cb3db2e38c3e87",
+            "0e019df7eb6f6d04",
+            "d75a670b349afcb7",
+            "c14a82b69b30a7d5",
+            "da2c4b9701611f94",
+            "8f874d8e756ccfbb"
+        ],
+        "x": 94,
+        "y": 819,
+        "w": 1292,
+        "h": 762
+    },
+    {
+        "id": "61e54de32d1b9522",
+        "type": "group",
+        "z": "f89d37d6df21c456",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "77dc0fe7a0ede316",
+            "9722ff8d87094c51",
+            "c889673144f98781",
+            "cbc8c135f4cfcc8d",
+            "e11154d4fd893f0c",
+            "0542a46d29120e87",
+            "02bdfa7dd585dabb",
+            "6d920123f61f5e2f",
+            "580be230eeebb5e9",
+            "60d04d3dec11a458",
+            "f10938b2f5adbe32",
+            "0932608fea4dc70e",
+            "a79cfb131aa67b98",
+            "1517df56bbcf4952",
+            "0f6535117275d71a",
+            "8a7e2924e0657efd",
+            "5f63406ef502cda1",
+            "ed017d79a099e26c",
+            "9d464ffbf044db0d",
+            "11049d2f20eb1f1e",
+            "9ccbb45449d7b923",
+            "99a613451af463d1",
+            "189e7e1f5c1a8422",
+            "917640cde23e0fad",
+            "baba73f504e3a594",
+            "641f8bb7348c73fc",
+            "a47635593e1b23ac",
+            "d9320eb663b136a1",
+            "5910a9fef8d84573",
+            "4ce0e940e4019519",
+            "e2d459681ccd9131",
+            "996d34fcdf868023",
+            "a9250b7a174d22e2"
+        ],
+        "x": 94,
+        "y": 19,
+        "w": 1292,
+        "h": 762
+    },
+    {
+        "id": "790b699b8e2ebe05",
+        "type": "group",
+        "z": "f89d37d6df21c456",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "cab959dd36c345e0",
+            "6b23ed1dc239a7cd",
+            "8a9d3ee297049ff0",
+            "931456ba883a8bfb",
+            "b27af978c962a39b",
+            "9abfd640db595d80",
+            "9c06a7f4b0928fba",
+            "e3a21115ab020d64",
+            "171889b105134def",
+            "d743fae5fec0daa6",
+            "f32c44eea6b25f85",
+            "4d3a47d93f72d3e1",
+            "f72256d45259116e",
+            "b67787f6fdf417cc",
+            "fd82f7dd2fc96b99",
+            "72c6682bf7854ac8",
+            "faa53849b2f79e8f",
+            "d9e2c88920297f42",
+            "69a63062fb18e670",
+            "6cd3b2ac723bd1bd",
+            "adeaf0e014d95b3c",
+            "7341509f9267df62",
+            "63a825c2eb6a78ff",
+            "c41526f2a776b71a",
+            "e66619bf46ecba0b",
+            "412b6c87a7868379",
+            "05d4d403751a827c",
+            "6deea455023d10f7",
+            "459e7241f06a10ae"
+        ],
+        "x": 94,
+        "y": 1599,
+        "w": 1292,
+        "h": 782
+    },
+    {
+        "id": "7b9f9f63614344ac",
+        "type": "mqtt in",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "topic": "agentBasedDSS/lineAgent18/firstNegotiation/result",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f89dbca9d16cfff4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 940,
+        "wires": [
+            [
+                "8282b65888fefca9"
+            ]
+        ]
+    },
+    {
+        "id": "8282b65888fefca9",
+        "type": "json",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 940,
+        "wires": [
+            [
+                "31bea06d5becd101"
+            ]
+        ]
+    },
+    {
+        "id": "31bea06d5becd101",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "func": "msg.payload = msg.payload.workers\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 940,
+        "wires": [
+            [
+                "d0642fab8dfcc7b3",
+                "c14a82b69b30a7d5"
+            ]
+        ]
+    },
+    {
+        "id": "d0642fab8dfcc7b3",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "f31377acaafcf1b6",
+        "type": "mqtt in",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "topic": "agentBasedDSS/lineAgent18/firstNegotiation/criteria",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f89dbca9d16cfff4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 1040,
+        "wires": [
+            [
+                "d8d49b049f9a8cf7"
+            ]
+        ]
+    },
+    {
+        "id": "08c1e76d396032c6",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "3317fbddc35aed41",
+        "type": "inject",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 1180,
+        "wires": [
+            [
+                "f098bd8c8e5142b0"
+            ]
+        ]
+    },
+    {
+        "id": "f098bd8c8e5142b0",
+        "type": "mqtt out",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "topic": "agentBasedDSS/renegotiation",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f89dbca9d16cfff4",
+        "x": 480,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "d8d49b049f9a8cf7",
+        "type": "join",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 630,
+        "y": 1040,
+        "wires": [
+            [
+                "08c1e76d396032c6",
+                "8f874d8e756ccfbb"
+            ]
+        ]
+    },
+    {
+        "id": "9de57785cc363f85",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "group": "cff50be412006569",
+        "order": 3,
+        "width": "11",
+        "height": 1,
+        "name": "",
+        "label": "Criteria: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1080,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "7404bde7fab45977",
+        "type": "ui_button",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "group": "cff50be412006569",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Yes",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "",
+        "payload": "Age",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 1240,
+        "wires": [
+            [
+                "f098bd8c8e5142b0"
+            ]
+        ]
+    },
+    {
+        "id": "ac2228723407c0a9",
+        "type": "ui_button",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "group": "cff50be412006569",
+        "order": 7,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "No",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "None",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 1280,
+        "wires": [
+            [
+                "f098bd8c8e5142b0"
+            ]
+        ]
+    },
+    {
+        "id": "9ec28845b840d4e6",
+        "type": "mqtt in",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "topic": "agentBasedDSS/lineAgent18/Renegotiation/result",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f89dbca9d16cfff4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 340,
+        "y": 1400,
+        "wires": [
+            [
+                "c12e82e04ee8d0b2"
+            ]
+        ]
+    },
+    {
+        "id": "c12e82e04ee8d0b2",
+        "type": "json",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 1400,
+        "wires": [
+            [
+                "da6b6b71c141c345"
+            ]
+        ]
+    },
+    {
+        "id": "da6b6b71c141c345",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "func": "msg.payload = msg.payload.workers\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 1400,
+        "wires": [
+            [
+                "82e9a620a05ec239",
+                "da2c4b9701611f94"
+            ]
+        ]
+    },
+    {
+        "id": "82e9a620a05ec239",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "647e18d480715583",
+        "type": "mqtt in",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "topic": "agentBasedDSS/lineAgent18/Renegotiation/criteria",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f89dbca9d16cfff4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 1500,
+        "wires": [
+            [
+                "d75a670b349afcb7"
+            ]
+        ]
+    },
+    {
+        "id": "5444c873b5f223c6",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "37510556fa161bbc",
+        "type": "join",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 670,
+        "y": 1480,
+        "wires": [
+            [
+                "5444c873b5f223c6",
+                "b514235f9638586d"
+            ]
+        ]
+    },
+    {
+        "id": "36c37f85cee48179",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "group": "cff50be412006569",
+        "order": 11,
+        "width": "11",
+        "height": 1,
+        "name": "",
+        "label": "Criteria: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1020,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "adf5a6e30ae48dcb",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "group": "cff50be412006569",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "First negotiation result:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1260,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "6e5a5e69b5a9a277",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "group": "cff50be412006569",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Renegotiation:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1240,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "51cb3db2e38c3e87",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "group": "cff50be412006569",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Renegotiation result:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1260,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "cab959dd36c345e0",
+        "type": "mqtt in",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "topic": "agentBasedDSS/lineAgent20/firstNegotiation/result",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f89dbca9d16cfff4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 1720,
+        "wires": [
+            [
+                "6b23ed1dc239a7cd"
+            ]
+        ]
+    },
+    {
+        "id": "6b23ed1dc239a7cd",
+        "type": "json",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 1720,
+        "wires": [
+            [
+                "8a9d3ee297049ff0"
+            ]
+        ]
+    },
+    {
+        "id": "8a9d3ee297049ff0",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "func": "msg.payload = msg.payload.workers\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 1720,
+        "wires": [
+            [
+                "931456ba883a8bfb",
+                "412b6c87a7868379"
+            ]
+        ]
+    },
+    {
+        "id": "931456ba883a8bfb",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "b27af978c962a39b",
+        "type": "mqtt in",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "topic": "agentBasedDSS/lineAgent20/firstNegotiation/criteria",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f89dbca9d16cfff4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 1820,
+        "wires": [
+            [
+                "171889b105134def"
+            ]
+        ]
+    },
+    {
+        "id": "9abfd640db595d80",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "9c06a7f4b0928fba",
+        "type": "inject",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 1960,
+        "wires": [
+            [
+                "e3a21115ab020d64"
+            ]
+        ]
+    },
+    {
+        "id": "e3a21115ab020d64",
+        "type": "mqtt out",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "topic": "agentBasedDSS/renegotiation",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f89dbca9d16cfff4",
+        "x": 480,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "171889b105134def",
+        "type": "join",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 630,
+        "y": 1820,
+        "wires": [
+            [
+                "9abfd640db595d80",
+                "6deea455023d10f7"
+            ]
+        ]
+    },
+    {
+        "id": "d743fae5fec0daa6",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "group": "2e2de88cf4612844",
+        "order": 3,
+        "width": "11",
+        "height": 1,
+        "name": "",
+        "label": "Criteria: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1060,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "f32c44eea6b25f85",
+        "type": "ui_button",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "group": "2e2de88cf4612844",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Yes",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "",
+        "payload": "Age",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 2020,
+        "wires": [
+            [
+                "e3a21115ab020d64"
+            ]
+        ]
+    },
+    {
+        "id": "4d3a47d93f72d3e1",
+        "type": "ui_button",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "group": "2e2de88cf4612844",
+        "order": 7,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "No",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "None",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 230,
+        "y": 2060,
+        "wires": [
+            [
+                "e3a21115ab020d64"
+            ]
+        ]
+    },
+    {
+        "id": "f72256d45259116e",
+        "type": "mqtt in",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "topic": "agentBasedDSS/lineAgent20/Renegotiation/result",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f89dbca9d16cfff4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 340,
+        "y": 2180,
+        "wires": [
+            [
+                "b67787f6fdf417cc"
+            ]
+        ]
+    },
+    {
+        "id": "b67787f6fdf417cc",
+        "type": "json",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 2180,
+        "wires": [
+            [
+                "fd82f7dd2fc96b99"
+            ]
+        ]
+    },
+    {
+        "id": "fd82f7dd2fc96b99",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "func": "msg.payload = msg.payload.workers\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 2180,
+        "wires": [
+            [
+                "72c6682bf7854ac8",
+                "05d4d403751a827c"
+            ]
+        ]
+    },
+    {
+        "id": "72c6682bf7854ac8",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "faa53849b2f79e8f",
+        "type": "mqtt in",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "topic": "agentBasedDSS/lineAgent20/Renegotiation/criteria",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f89dbca9d16cfff4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 2280,
+        "wires": [
+            [
+                "e66619bf46ecba0b"
+            ]
+        ]
+    },
+    {
+        "id": "d9e2c88920297f42",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "69a63062fb18e670",
+        "type": "join",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 630,
+        "y": 2280,
+        "wires": [
+            [
+                "d9e2c88920297f42",
+                "459e7241f06a10ae"
+            ]
+        ]
+    },
+    {
+        "id": "6cd3b2ac723bd1bd",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "group": "2e2de88cf4612844",
+        "order": 11,
+        "width": "11",
+        "height": 1,
+        "name": "",
+        "label": "Criteria: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1020,
+        "y": 2320,
+        "wires": []
+    },
+    {
+        "id": "adeaf0e014d95b3c",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "group": "2e2de88cf4612844",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "First negotiation result:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1260,
+        "y": 1660,
+        "wires": []
+    },
+    {
+        "id": "7341509f9267df62",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "group": "2e2de88cf4612844",
+        "order": 4,
+        "width": 2,
+        "height": 1,
+        "name": "",
+        "label": "Renegotiation:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1240,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "63a825c2eb6a78ff",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "group": "2e2de88cf4612844",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Renegotiation result:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1260,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "0e019df7eb6f6d04",
+        "type": "comment",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "Line 18",
+        "info": "",
+        "x": 190,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "c41526f2a776b71a",
+        "type": "comment",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "Line 20",
+        "info": "",
+        "x": 190,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "b9b975d9e05f8f1e",
+        "type": "ui_dropdown",
+        "z": "f89d37d6df21c456",
+        "name": "",
+        "label": "Select the line:",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "fa666362010949c7",
+        "order": 1,
+        "width": 8,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            },
+            {
+                "label": "Line 17",
+                "value": "lineAgent17",
+                "type": "str"
+            },
+            {
+                "label": "Line 18",
+                "value": "lineAgent18",
+                "type": "str"
+            },
+            {
+                "label": "Line 20",
+                "value": "lineAgent20",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 1720,
+        "y": 140,
+        "wires": [
+            [
+                "857349abb56555c8",
+                "2c4e09304005546d"
+            ]
+        ]
+    },
+    {
+        "id": "f9485c3cc992f23e",
+        "type": "mqtt out",
+        "z": "f89d37d6df21c456",
+        "name": "",
+        "topic": "agentBasedDSS/selectLine",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f89dbca9d16cfff4",
+        "x": 2120,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "d75a670b349afcb7",
+        "type": "switch",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "no_workers",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "no_workers",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 610,
+        "y": 1540,
+        "wires": [
+            [
+                "37510556fa161bbc"
+            ],
+            [
+                "36c37f85cee48179"
+            ]
+        ]
+    },
+    {
+        "id": "e66619bf46ecba0b",
+        "type": "switch",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "no_workers",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "no_workers",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 650,
+        "y": 2340,
+        "wires": [
+            [
+                "69a63062fb18e670"
+            ],
+            [
+                "6cd3b2ac723bd1bd"
+            ]
+        ]
+    },
+    {
+        "id": "b686d046d4d33843",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "name": "",
+        "func": "msg.payload =[];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 1180,
+        "wires": [
+            [
+                "c14a82b69b30a7d5",
+                "da2c4b9701611f94"
+            ]
+        ]
+    },
+    {
+        "id": "f9fa5eeddcccf622",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "name": "",
+        "func": "msg.payload =\"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 1240,
+        "wires": [
+            [
+                "9de57785cc363f85",
+                "36c37f85cee48179"
+            ]
+        ]
+    },
+    {
+        "id": "a7f6ea8ab9ac9b4d",
+        "type": "ui_button",
+        "z": "f89d37d6df21c456",
+        "name": "",
+        "group": "cff50be412006569",
+        "order": 13,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Clear",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-trash",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 730,
+        "y": 1220,
+        "wires": [
+            [
+                "b686d046d4d33843",
+                "f9fa5eeddcccf622"
+            ]
+        ]
+    },
+    {
+        "id": "640228ba88fb56b9",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "name": "",
+        "func": "msg.payload =[];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 1960,
+        "wires": [
+            [
+                "412b6c87a7868379",
+                "05d4d403751a827c"
+            ]
+        ]
+    },
+    {
+        "id": "2e309d6e623d757d",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "name": "",
+        "func": "msg.payload =\"\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 2020,
+        "wires": [
+            [
+                "d743fae5fec0daa6",
+                "6cd3b2ac723bd1bd"
+            ]
+        ]
+    },
+    {
+        "id": "c4a3ad0f345a8975",
+        "type": "ui_button",
+        "z": "f89d37d6df21c456",
+        "name": "",
+        "group": "2e2de88cf4612844",
+        "order": 13,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Clear",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-trash",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 730,
+        "y": 2000,
+        "wires": [
+            [
+                "640228ba88fb56b9",
+                "2e309d6e623d757d"
+            ]
+        ]
+    },
+    {
+        "id": "77dc0fe7a0ede316",
+        "type": "mqtt in",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "topic": "agentBasedDSS/lineAgent17/firstNegotiation/result",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f89dbca9d16cfff4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "9722ff8d87094c51"
+            ]
+        ]
+    },
+    {
+        "id": "9722ff8d87094c51",
+        "type": "json",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 140,
+        "wires": [
+            [
+                "cbc8c135f4cfcc8d",
+                "4ce0e940e4019519"
+            ]
+        ]
+    },
+    {
+        "id": "c889673144f98781",
+        "type": "ui_table",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "group": "1731bd37f9317546",
+        "name": "",
+        "order": 2,
+        "width": "11",
+        "height": "4",
+        "columns": [
+            {
+                "field": "workerId",
+                "title": "Worker ID",
+                "width": "102",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "proposalValue",
+                "title": "Score",
+                "width": "72",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "gender",
+                "title": "Gender",
+                "width": "82",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "age",
+                "title": "Age",
+                "width": "50",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "workerResilience",
+                "title": "Resilience (Worker)",
+                "width": "75",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "workerPreference",
+                "title": "Preference (Worker)",
+                "width": "80",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "experienceOnTheLine",
+                "title": "Experience",
+                "width": "70",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "jobRotation",
+                "title": "Job Rotation",
+                "width": "90",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 970,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "cbc8c135f4cfcc8d",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "func": "msg.payload = msg.payload.workers\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 140,
+        "wires": [
+            [
+                "c889673144f98781",
+                "e11154d4fd893f0c"
+            ]
+        ]
+    },
+    {
+        "id": "e11154d4fd893f0c",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "0542a46d29120e87",
+        "type": "mqtt in",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "topic": "agentBasedDSS/lineAgent17/firstNegotiation/criteria",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f89dbca9d16cfff4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 240,
+        "wires": [
+            [
+                "60d04d3dec11a458"
+            ]
+        ]
+    },
+    {
+        "id": "02bdfa7dd585dabb",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6d920123f61f5e2f",
+        "type": "inject",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 380,
+        "wires": [
+            [
+                "580be230eeebb5e9"
+            ]
+        ]
+    },
+    {
+        "id": "580be230eeebb5e9",
+        "type": "mqtt out",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "topic": "agentBasedDSS/renegotiation",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "f89dbca9d16cfff4",
+        "x": 480,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "60d04d3dec11a458",
+        "type": "join",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 630,
+        "y": 240,
+        "wires": [
+            [
+                "02bdfa7dd585dabb",
+                "996d34fcdf868023"
+            ]
+        ]
+    },
+    {
+        "id": "f10938b2f5adbe32",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "group": "1731bd37f9317546",
+        "order": 3,
+        "width": "11",
+        "height": "1",
+        "name": "",
+        "label": "Criteria: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1080,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "0932608fea4dc70e",
+        "type": "ui_button",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "group": "1731bd37f9317546",
+        "order": 6,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "Yes",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "green",
+        "className": "",
+        "icon": "",
+        "payload": "Age",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 440,
+        "wires": [
+            [
+                "580be230eeebb5e9"
+            ]
+        ]
+    },
+    {
+        "id": "a79cfb131aa67b98",
+        "type": "ui_button",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "group": "1731bd37f9317546",
+        "order": 7,
+        "width": 2,
+        "height": 1,
+        "passthru": false,
+        "label": "No",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "",
+        "payload": "None",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 480,
+        "wires": [
+            [
+                "580be230eeebb5e9"
+            ]
+        ]
+    },
+    {
+        "id": "1517df56bbcf4952",
+        "type": "mqtt in",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "topic": "agentBasedDSS/lineAgent17/Renegotiation/result",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f89dbca9d16cfff4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 340,
+        "y": 600,
+        "wires": [
+            [
+                "0f6535117275d71a"
+            ]
+        ]
+    },
+    {
+        "id": "0f6535117275d71a",
+        "type": "json",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 600,
+        "wires": [
+            [
+                "8a7e2924e0657efd"
+            ]
+        ]
+    },
+    {
+        "id": "8a7e2924e0657efd",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "func": "msg.payload = msg.payload.workers\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 800,
+        "y": 600,
+        "wires": [
+            [
+                "5f63406ef502cda1",
+                "e2d459681ccd9131"
+            ]
+        ]
+    },
+    {
+        "id": "5f63406ef502cda1",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "ed017d79a099e26c",
+        "type": "mqtt in",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "topic": "agentBasedDSS/lineAgent17/Renegotiation/criteria",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "f89dbca9d16cfff4",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 700,
+        "wires": [
+            [
+                "641f8bb7348c73fc"
+            ]
+        ]
+    },
+    {
+        "id": "9d464ffbf044db0d",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 930,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "11049d2f20eb1f1e",
+        "type": "join",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": true,
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 750,
+        "y": 680,
+        "wires": [
+            [
+                "9d464ffbf044db0d",
+                "a9250b7a174d22e2"
+            ]
+        ]
+    },
+    {
+        "id": "9ccbb45449d7b923",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "group": "1731bd37f9317546",
+        "order": 11,
+        "width": "11",
+        "height": 1,
+        "name": "",
+        "label": "Criteria: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1060,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "99a613451af463d1",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "group": "1731bd37f9317546",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "First negotiation result:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1260,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "189e7e1f5c1a8422",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "group": "1731bd37f9317546",
+        "order": 4,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": "Renegotiation:",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1240,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "917640cde23e0fad",
+        "type": "ui_text",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "group": "1731bd37f9317546",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Renegotiation result:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1260,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "baba73f504e3a594",
+        "type": "comment",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "Line 17",
+        "info": "",
+        "x": 190,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "641f8bb7348c73fc",
+        "type": "switch",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "no_workers",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "no_workers",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 740,
+        "wires": [
+            [
+                "11049d2f20eb1f1e"
+            ],
+            [
+                "9ccbb45449d7b923"
+            ]
+        ]
+    },
+    {
+        "id": "a47635593e1b23ac",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "func": "msg.payload =[];\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 380,
+        "wires": [
+            [
+                "c889673144f98781",
+                "e2d459681ccd9131"
+            ]
+        ]
+    },
+    {
+        "id": "d9320eb663b136a1",
+        "type": "ui_button",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "group": "1731bd37f9317546",
+        "order": 12,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Clear",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "red",
+        "className": "",
+        "icon": "fa-trash",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 710,
+        "y": 420,
+        "wires": [
+            [
+                "a47635593e1b23ac",
+                "5910a9fef8d84573"
+            ]
+        ]
+    },
+    {
+        "id": "5910a9fef8d84573",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "func": "msg.payload =\"\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 440,
+        "wires": [
+            [
+                "f10938b2f5adbe32",
+                "9ccbb45449d7b923"
+            ]
+        ]
+    },
+    {
+        "id": "857349abb56555c8",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "name": "",
+        "func": "if(msg.payload != undefined){\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1900,
+        "y": 140,
+        "wires": [
+            [
+                "f9485c3cc992f23e",
+                "18c57747ba5658de"
+            ]
+        ]
+    },
+    {
+        "id": "18c57747ba5658de",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2070,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "2c4e09304005546d",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "name": "function",
+        "func": "let lineSelected = msg.payload; // e.g. \"lineAgent17\", \"lineAgent18\", \"lineAgent20\"\n\n    // Build a default set of groups for your lines\n    let allGroups = [\"Line 17\",\"Line 18\",\"Line 20\"];\n\n    // Convert \"lineAgent17\" --> \"Line 17\", etc.\n    // If your naming is consistent, you could do something simpler. \n    // But let's just map them for clarity:\n    let groupName = \"\";\n    if (lineSelected === \"lineAgent17\") groupName = \"Line 17\";\n    if (lineSelected === \"lineAgent18\") groupName = \"Line 18\";\n    if (lineSelected === \"lineAgent20\") groupName = \"Line 20\";\n\n    // The \"ui_control\" node can hide or show entire groups by name:\n    msg.payload = {\n        group: {\n            hide: allGroups,\n            show: [ groupName ]\n        }\n    };\n\n    // This tells the dropdown node to disable itself\n    msg.ui_control = { disable: true };\n    \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1900,
+        "y": 280,
+        "wires": [
+            [
+                "2713167bf1ae2080"
+            ]
+        ]
+    },
+    {
+        "id": "2713167bf1ae2080",
+        "type": "ui_ui_control",
+        "z": "f89d37d6df21c456",
+        "name": "",
+        "events": "all",
+        "x": 2080,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4ce0e940e4019519",
+        "type": "debug",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "e2d459681ccd9131",
+        "type": "ui_table",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "group": "1731bd37f9317546",
+        "name": "",
+        "order": 10,
+        "width": "11",
+        "height": "4",
+        "columns": [
+            {
+                "field": "workerId",
+                "title": "Worker ID",
+                "width": "102",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "proposalValue",
+                "title": "Score",
+                "width": "72",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "gender",
+                "title": "Gender",
+                "width": "82",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "age",
+                "title": "Age",
+                "width": "50",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "workerResilience",
+                "title": "Resilience (Worker)",
+                "width": "75",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "workerPreference",
+                "title": "Preference (Worker)",
+                "width": "80",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "experienceOnTheLine",
+                "title": "Experience",
+                "width": "70",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "jobRotation",
+                "title": "Job Rotation",
+                "width": "90",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1010,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "c14a82b69b30a7d5",
+        "type": "ui_table",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "group": "cff50be412006569",
+        "name": "",
+        "order": 2,
+        "width": "11",
+        "height": "4",
+        "columns": [
+            {
+                "field": "workerId",
+                "title": "Worker ID",
+                "width": "102",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "proposalValue",
+                "title": "Score",
+                "width": "72",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "gender",
+                "title": "Gender",
+                "width": "82",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "age",
+                "title": "Age",
+                "width": "50",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "workerResilience",
+                "title": "Resilience (Worker)",
+                "width": "75",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "workerPreference",
+                "title": "Preference (Worker)",
+                "width": "80",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "experienceOnTheLine",
+                "title": "Experience",
+                "width": "70",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "jobRotation",
+                "title": "Job Rotation",
+                "width": "90",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 990,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "da2c4b9701611f94",
+        "type": "ui_table",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "group": "cff50be412006569",
+        "name": "",
+        "order": 10,
+        "width": "11",
+        "height": "4",
+        "columns": [
+            {
+                "field": "workerId",
+                "title": "Worker ID",
+                "width": "102",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "proposalValue",
+                "title": "Score",
+                "width": "72",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "gender",
+                "title": "Gender",
+                "width": "82",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "age",
+                "title": "Age",
+                "width": "50",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "workerResilience",
+                "title": "Resilience (Worker)",
+                "width": "75",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "workerPreference",
+                "title": "Preference (Worker)",
+                "width": "80",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "experienceOnTheLine",
+                "title": "Experience",
+                "width": "70",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "jobRotation",
+                "title": "Job Rotation",
+                "width": "90",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1010,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "412b6c87a7868379",
+        "type": "ui_table",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "group": "2e2de88cf4612844",
+        "name": "",
+        "order": 2,
+        "width": "11",
+        "height": "4",
+        "columns": [
+            {
+                "field": "workerId",
+                "title": "Worker ID",
+                "width": "102",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "proposalValue",
+                "title": "Score",
+                "width": "72",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "gender",
+                "title": "Gender",
+                "width": "82",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "age",
+                "title": "Age",
+                "width": "50",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "workerResilience",
+                "title": "Resilience (Worker)",
+                "width": "75",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "workerPreference",
+                "title": "Preference (Worker)",
+                "width": "80",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "experienceOnTheLine",
+                "title": "Experience",
+                "width": "70",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "jobRotation",
+                "title": "Job Rotation",
+                "width": "90",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1010,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "05d4d403751a827c",
+        "type": "ui_table",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "group": "2e2de88cf4612844",
+        "name": "",
+        "order": 10,
+        "width": "11",
+        "height": "4",
+        "columns": [
+            {
+                "field": "workerId",
+                "title": "Worker ID",
+                "width": "102",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "proposalValue",
+                "title": "Score",
+                "width": "72",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "gender",
+                "title": "Gender",
+                "width": "82",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "age",
+                "title": "Age",
+                "width": "50",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "workerResilience",
+                "title": "Resilience (Worker)",
+                "width": "75",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "workerPreference",
+                "title": "Preference (Worker)",
+                "width": "80",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "experienceOnTheLine",
+                "title": "Experience",
+                "width": "70",
+                "align": "center",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "jobRotation",
+                "title": "Job Rotation",
+                "width": "90",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 1050,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "996d34fcdf868023",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "function",
+        "func": "const lookup = {\n    criteria_age_not_satisfied: \"Age Criteria Not Satisfied\",\n    criteria_gender_not_satisfied: \"Gender Criteria Not Satisfied\",\n    criteria_age_satisfied: \"Age Criteria Satisfied\",\n    criteria_gender_satisfied: \"Gender Criteria Satisfied\"\n};\n\n// If msg.payload is an array, map each value\nif (Array.isArray(msg.payload)) {\n    // Transform each entry using the lookup\n    // If a key isn't found in the lookup, keep the original text\n    msg.payload = msg.payload.map(item => {\n        return lookup[item] || item;\n    }).join(\", \");\n} else {\n    // If it's a single string, try to map it directly\n    msg.payload = lookup[msg.payload] || msg.payload;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 280,
+        "wires": [
+            [
+                "f10938b2f5adbe32"
+            ]
+        ]
+    },
+    {
+        "id": "a9250b7a174d22e2",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "g": "61e54de32d1b9522",
+        "name": "function",
+        "func": "const lookup = {\n    criteria_age_not_satisfied: \"Age Criteria Not Satisfied\",\n    criteria_gender_not_satisfied: \"Gender Criteria Not Satisfied\",\n    criteria_age_satisfied: \"Age Criteria Satisfied\",\n    criteria_gender_satisfied: \"Gender Criteria Satisfied\"\n};\n\n// If msg.payload is an array, map each value\nif (Array.isArray(msg.payload)) {\n    // Transform each entry using the lookup\n    // If a key isn't found in the lookup, keep the original text\n    msg.payload = msg.payload.map(item => {\n        return lookup[item] || item;\n    }).join(\", \");\n} else {\n    // If it's a single string, try to map it directly\n    msg.payload = lookup[msg.payload] || msg.payload;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 720,
+        "wires": [
+            [
+                "9ccbb45449d7b923"
+            ]
+        ]
+    },
+    {
+        "id": "8f874d8e756ccfbb",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "g": "f171f54e0d53b7ec",
+        "name": "function",
+        "func": "const lookup = {\n    criteria_age_not_satisfied: \"Age Criteria Not Satisfied\",\n    criteria_gender_not_satisfied: \"Gender Criteria Not Satisfied\",\n    criteria_age_satisfied: \"Age Criteria Satisfied\",\n    criteria_gender_satisfied: \"Gender Criteria Satisfied\"\n};\n\n// If msg.payload is an array, map each value\nif (Array.isArray(msg.payload)) {\n    // Transform each entry using the lookup\n    // If a key isn't found in the lookup, keep the original text\n    msg.payload = msg.payload.map(item => {\n        return lookup[item] || item;\n    }).join(\", \");\n} else {\n    // If it's a single string, try to map it directly\n    msg.payload = lookup[msg.payload] || msg.payload;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 1080,
+        "wires": [
+            [
+                "9de57785cc363f85"
+            ]
+        ]
+    },
+    {
+        "id": "b514235f9638586d",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "name": "function",
+        "func": "const lookup = {\n    criteria_age_not_satisfied: \"Age Criteria Not Satisfied\",\n    criteria_gender_not_satisfied: \"Gender Criteria Not Satisfied\",\n    criteria_age_satisfied: \"Age Criteria Satisfied\",\n    criteria_gender_satisfied: \"Gender Criteria Satisfied\"\n};\n\n// If msg.payload is an array, map each value\nif (Array.isArray(msg.payload)) {\n    // Transform each entry using the lookup\n    // If a key isn't found in the lookup, keep the original text\n    msg.payload = msg.payload.map(item => {\n        return lookup[item] || item;\n    }).join(\", \");\n} else {\n    // If it's a single string, try to map it directly\n    msg.payload = lookup[msg.payload] || msg.payload;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 834.066650390625,
+        "y": 1522.316650390625,
+        "wires": [
+            [
+                "36c37f85cee48179"
+            ]
+        ]
+    },
+    {
+        "id": "6deea455023d10f7",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "function",
+        "func": "const lookup = {\n    criteria_age_not_satisfied: \"Age Criteria Not Satisfied\",\n    criteria_gender_not_satisfied: \"Gender Criteria Not Satisfied\",\n    criteria_age_satisfied: \"Age Criteria Satisfied\",\n    criteria_gender_satisfied: \"Gender Criteria Satisfied\"\n};\n\n// If msg.payload is an array, map each value\nif (Array.isArray(msg.payload)) {\n    // Transform each entry using the lookup\n    // If a key isn't found in the lookup, keep the original text\n    msg.payload = msg.payload.map(item => {\n        return lookup[item] || item;\n    }).join(\", \");\n} else {\n    // If it's a single string, try to map it directly\n    msg.payload = lookup[msg.payload] || msg.payload;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 1860,
+        "wires": [
+            [
+                "d743fae5fec0daa6"
+            ]
+        ]
+    },
+    {
+        "id": "459e7241f06a10ae",
+        "type": "function",
+        "z": "f89d37d6df21c456",
+        "g": "790b699b8e2ebe05",
+        "name": "function",
+        "func": "const lookup = {\n    criteria_age_not_satisfied: \"Age Criteria Not Satisfied\",\n    criteria_gender_not_satisfied: \"Gender Criteria Not Satisfied\",\n    criteria_age_satisfied: \"Age Criteria Satisfied\",\n    criteria_gender_satisfied: \"Gender Criteria Satisfied\"\n};\n\n// If msg.payload is an array, map each value\nif (Array.isArray(msg.payload)) {\n    // Transform each entry using the lookup\n    // If a key isn't found in the lookup, keep the original text\n    msg.payload = msg.payload.map(item => {\n        return lookup[item] || item;\n    }).join(\", \");\n} else {\n    // If it's a single string, try to map it directly\n    msg.payload = lookup[msg.payload] || msg.payload;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 2300,
+        "wires": [
+            [
+                "6cd3b2ac723bd1bd"
+            ]
+        ]
+    },
+    {
+        "id": "91da3c6309112afa",
+        "type": "ui_spacer",
+        "z": "f89d37d6df21c456",
+        "name": "spacer",
+        "group": "fa666362010949c7",
+        "order": 2,
+        "width": 26,
+        "height": 1
+    },
+    {
+        "id": "61c529fa723061cd",
+        "type": "ui_spacer",
+        "z": "f89d37d6df21c456",
+        "name": "spacer",
+        "group": "cff50be412006569",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7c432c823d3c1d98",
+        "type": "ui_spacer",
+        "z": "f89d37d6df21c456",
+        "name": "spacer",
+        "group": "cff50be412006569",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "880d232e20d75b67",
+        "type": "ui_spacer",
+        "z": "f89d37d6df21c456",
+        "name": "spacer",
+        "group": "2e2de88cf4612844",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9fe42986197a9be0",
+        "type": "ui_spacer",
+        "z": "f89d37d6df21c456",
+        "name": "spacer",
+        "group": "2e2de88cf4612844",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f3c6d5a51b0c8d29",
+        "type": "ui_spacer",
+        "z": "f89d37d6df21c456",
+        "name": "spacer",
+        "group": "1731bd37f9317546",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "80d57f461d1d8011",
+        "type": "ui_spacer",
+        "z": "f89d37d6df21c456",
+        "name": "spacer",
+        "group": "1731bd37f9317546",
+        "order": 8,
+        "width": "2",
+        "height": "1"
+    },
+    {
+        "id": "f89dbca9d16cfff4",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "cff50be412006569",
+        "type": "ui_group",
+        "name": "Line 18",
+        "tab": "f5e100584ce1c2a1",
+        "order": 3,
+        "disp": true,
+        "width": 11,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2e2de88cf4612844",
+        "type": "ui_group",
+        "name": "Line 20",
+        "tab": "f5e100584ce1c2a1",
+        "order": 4,
+        "disp": true,
+        "width": 11,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fa666362010949c7",
+        "type": "ui_group",
+        "name": "User options",
+        "tab": "f5e100584ce1c2a1",
+        "order": 1,
+        "disp": false,
+        "width": 34,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1731bd37f9317546",
+        "type": "ui_group",
+        "name": "Line 17",
+        "tab": "f5e100584ce1c2a1",
+        "order": 2,
+        "disp": true,
+        "width": 11,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f5e100584ce1c2a1",
+        "type": "ui_tab",
+        "name": "AgentBasedDSS",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

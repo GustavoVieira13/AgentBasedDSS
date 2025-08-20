@@ -1,0 +1,53 @@
+{
+  "workers" : [ {
+    "gender" : "Female",
+    "age" : 31,
+    "jobRotation" : 50.0,
+    "experienceOnTheLine" : 10,
+    "proposalValue" : 0.9000000000000001,
+    "workerPreference" : 0.9,
+    "workerResilience" : 0.9,
+    "workerId" : 100022,
+    "medicalCondition" : true,
+    "availability" : true,
+    "uteexperience" : false
+  }, {
+    "gender" : "Male",
+    "age" : 52,
+    "jobRotation" : 35.0,
+    "experienceOnTheLine" : 7,
+    "proposalValue" : 0.861,
+    "workerPreference" : 0.77,
+    "workerResilience" : 0.91,
+    "workerId" : 100079,
+    "medicalCondition" : true,
+    "availability" : true,
+    "uteexperience" : false
+  }, {
+    "gender" : "Male",
+    "age" : 32,
+    "jobRotation" : 35.0,
+    "experienceOnTheLine" : 7,
+    "proposalValue" : 0.8,
+    "workerPreference" : 0.8,
+    "workerResilience" : 0.8,
+    "workerId" : 100003,
+    "medicalCondition" : true,
+    "availability" : true,
+    "uteexperience" : true
+  }, {
+    "gender" : "Female",
+    "age" : 24,
+    "jobRotation" : 35.0,
+    "experienceOnTheLine" : 7,
+    "proposalValue" : 0.6299999999999999,
+    "workerPreference" : 0.5,
+    "workerResilience" : 0.7,
+    "workerId" : 100044,
+    "medicalCondition" : true,
+    "availability" : true,
+    "uteexperience" : false
+  } ],
+  "lineId" : "20",
+  "workersRequired" : 4
+}

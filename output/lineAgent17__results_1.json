@@ -1,0 +1,77 @@
+{
+  "workers" : [ {
+    "gender" : "Female",
+    "age" : 55,
+    "jobRotation" : 30.0,
+    "experienceOnTheLine" : 6,
+    "proposalValue" : 0.8805000000000001,
+    "workerPreference" : 0.9,
+    "workerResilience" : 0.87,
+    "workerId" : 100060,
+    "medicalCondition" : true,
+    "availability" : true,
+    "uteexperience" : false
+  }, {
+    "gender" : "Male",
+    "age" : 52,
+    "jobRotation" : 35.0,
+    "experienceOnTheLine" : 7,
+    "proposalValue" : 0.8545,
+    "workerPreference" : 0.77,
+    "workerResilience" : 0.9,
+    "workerId" : 100078,
+    "medicalCondition" : true,
+    "availability" : true,
+    "uteexperience" : false
+  }, {
+    "gender" : "Male",
+    "age" : 27,
+    "jobRotation" : 30.0,
+    "experienceOnTheLine" : 6,
+    "proposalValue" : 0.8520000000000001,
+    "workerPreference" : 0.8,
+    "workerResilience" : 0.88,
+    "workerId" : 100066,
+    "medicalCondition" : true,
+    "availability" : true,
+    "uteexperience" : false
+  }, {
+    "gender" : "Male",
+    "age" : 27,
+    "jobRotation" : 35.0,
+    "experienceOnTheLine" : 7,
+    "proposalValue" : 0.808,
+    "workerPreference" : 0.6,
+    "workerResilience" : 0.92,
+    "workerId" : 100153,
+    "medicalCondition" : true,
+    "availability" : true,
+    "uteexperience" : true
+  }, {
+    "gender" : "Female",
+    "age" : 50,
+    "jobRotation" : 45.0,
+    "experienceOnTheLine" : 9,
+    "proposalValue" : 0.8069999999999999,
+    "workerPreference" : 0.82,
+    "workerResilience" : 0.8,
+    "workerId" : 100071,
+    "medicalCondition" : true,
+    "availability" : true,
+    "uteexperience" : false
+  }, {
+    "gender" : "Male",
+    "age" : 19,
+    "jobRotation" : 30.0,
+    "experienceOnTheLine" : 6,
+    "proposalValue" : 0.8025,
+    "workerPreference" : 0.77,
+    "workerResilience" : 0.82,
+    "workerId" : 100077,
+    "medicalCondition" : true,
+    "availability" : true,
+    "uteexperience" : false
+  } ],
+  "lineId" : "17",
+  "workersRequired" : 6
+}
